@@ -1,0 +1,25 @@
+{
+  "name": "GBM",
+  "shortLabel": "GBM",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "clusterField": "Cluster",
+  "labelField": "Cluster",
+  "enumFields": [
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/home/cruiz/10x_scRNAseq/analysis/AiPBAND/deep_sequencing/data/ucsc_browser/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/home/cruiz/10x_scRNAseq/analysis/AiPBAND/deep_sequencing/data/ucsc_browser/umap.coords.tsv",
+      "shortLabel": "Seurat umap"
+    }
+  ],
+  "inDir": ""
+}

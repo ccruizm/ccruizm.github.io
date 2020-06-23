@@ -1,0 +1,245 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/cruiz/10x_scRNAseq/analysis/AiPBAND/deep_sequencing/data/ucsc_browser/meta.tsv",
+      "md5": "e4eae6d9f4",
+      "size": 287137,
+      "mtime": "2020-06-23 08:14:56"
+    },
+    "outMeta": {
+      "fname": "./ccruizm.github.io/GBM/meta.tsv",
+      "md5": "e4eae6d9f4",
+      "size": 287137,
+      "mtime": "2020-06-23 08:19:09"
+    },
+    "inMatrix": {
+      "fname": "/home/cruiz/10x_scRNAseq/analysis/AiPBAND/deep_sequencing/data/ucsc_browser/exprMatrix.tsv.gz",
+      "md5": "9f96b9fe46",
+      "size": 129513428,
+      "mtime": "2020-06-23 08:14:56"
+    },
+    "outMatrix": {
+      "fname": "./ccruizm.github.io/GBM/exprMatrix.tsv.gz",
+      "md5": "1acd04f6a4",
+      "size": 82602956,
+      "mtime": "2020-06-23 08:20:47"
+    },
+    "conf": {
+      "fname": "/home/cruiz/10x_scRNAseq/analysis/AiPBAND/deep_sequencing/data/ucsc_browser/cellbrowser.conf",
+      "md5": "c1657e6072",
+      "size": 402,
+      "mtime": "2020-06-23 08:14:56"
+    }
+  },
+  "sampleCount": 6000,
+  "matrixWasFiltered": true,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 26,
+      "diffValCount": 6000,
+      "md5": "257a7f6e07"
+    },
+    {
+      "name": "nCount_RNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 4742,
+      "md5": "b4e759aba3"
+    },
+    {
+      "name": "nFeature_RNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3132,
+      "md5": "d710f45412"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Oligodendrocytes",
+          1835
+        ],
+        [
+          "AC-like",
+          812
+        ],
+        [
+          "MDM",
+          692
+        ],
+        [
+          "Microglia",
+          588
+        ],
+        [
+          "MES-like 1",
+          460
+        ],
+        [
+          "NPC-like 2",
+          402
+        ],
+        [
+          "NPC-like 1",
+          330
+        ],
+        [
+          "OPC-like",
+          286
+        ],
+        [
+          "Neurons",
+          256
+        ],
+        [
+          "MES-like 2",
+          172
+        ],
+        [
+          "Endothelial cells",
+          64
+        ],
+        [
+          "T cells",
+          58
+        ],
+        [
+          "Astrocytes",
+          45
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 13,
+      "md5": "6a4d23bc3c"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat umap",
+      "md5": "d72f191bfc",
+      "minX": 0,
+      "maxX": 65535,
+      "minY": 0,
+      "maxY": 65535,
+      "type": "Uint16",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "MES-like 1": [
+      "LINC01088",
+      "DPP10",
+      "TNC",
+      "RFX4",
+      "CD44"
+    ],
+    "MES-like 2": [
+      "VEGFA",
+      "HILPDA",
+      "ENO2",
+      "NDRG1",
+      "DNAH11"
+    ],
+    "AC-like": [
+      "EGFR",
+      "FRS2",
+      "IFNG-AS1",
+      "SLC35E3",
+      "R3HDM2"
+    ],
+    "NPC-like 1": [
+      "LHFPL3",
+      "KCND2",
+      "PCDH15",
+      "LRRC4C",
+      "CA10"
+    ],
+    "NPC-like 2": [
+      "CLSTN2",
+      "CACNA2D1",
+      "NRG1",
+      "EBF1",
+      "THSD7A"
+    ],
+    "OPC-like": [
+      "FGF12",
+      "OPCML",
+      "TNR",
+      "TMEM108",
+      "BMPER"
+    ],
+    "Oligodendrocytes": [
+      "RNF220",
+      "ST18",
+      "CTNNA3",
+      "SLC24A2",
+      "MBP"
+    ],
+    "Astrocytes": [
+      "ADGRV1",
+      "SLC1A2",
+      "HPSE2",
+      "GPC5",
+      "RNF219-AS1"
+    ],
+    "Neurons": [
+      "RBFOX1",
+      "SYT1",
+      "DLGAP2",
+      "KCNIP4",
+      "RALYL"
+    ],
+    "Microglia": [
+      "HS3ST4",
+      "APBB1IP",
+      "XACT",
+      "PALD1",
+      "LRMDA"
+    ],
+    "MDM": [
+      "AC093895.1",
+      "SAT1",
+      "SLC11A1",
+      "MSR1",
+      "ACSL1"
+    ],
+    "T cells": [
+      "SKAP1",
+      "THEMIS",
+      "CD96",
+      "SLFN12L",
+      "PARP8"
+    ],
+    "Endothelial cells": [
+      "VWF",
+      "FLT1",
+      "ATP10A",
+      "ABCB1",
+      "COL4A1"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "name": "GBM",
+  "shortLabel": "GBM",
+  "clusterField": "Cluster",
+  "md5": "b97c7c1820"
+}
